@@ -1,0 +1,10 @@
+cd
+pwd
+jobs
+fg
+bg
+exit
+history
+mcat
+msed
+mgrep
