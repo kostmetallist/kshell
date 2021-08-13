@@ -1,7 +1,25 @@
-### kshell
+# KShell
 
-Command line shell developed as an assignment for Operating Systems MSU 2016 course. Intended for running in Linux environment according to Posix, so please make sure your system meets the requirements for compilation and further running.  
+Command line shell developed as an assignment for Operating Systems MSU MMXVI
+course. Designed for running in Linux environment and pretends to be
+POSIX-compliant.
 
-Compile with `make`. 
+![Shell work demo GIF](doc/kshell.gif)
 
-Launch as `./OUT`.
+## Requirements
+
+Please look for
+[Task.pdf](https://github.com/kostmetallist/kshell/blob/master/doc/Task.pdf).
+
+## Prerequisites
+
+The shell uses standard C library and a few POSIX-specific headers/constants.
+Any popular Linux distribution should be capable of launching the shell out of
+the box.
+
+## How to compile and run
+
+```bash
+make
+./OUT
+```
